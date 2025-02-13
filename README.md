@@ -28,7 +28,7 @@
 <p><b>Step-1: </b> Create an empty directory and run the following commands in the terminal: </p>
 
 ```bash
-git clone https://github.com/Kaarti22/mnist-handwritten-digit-classification.git
+git clone https://github.com/GarimaUttam/Handwritten_Digit_Classification_using_Neural_Network.git
 
 cd mnist-handwritten-digit-classification
 ```
