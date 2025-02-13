@@ -27,30 +27,31 @@
 
 <p><b>Step-1: </b> Create an empty directory and run the following commands in the terminal: </p>
 
-bash
+```bash
 git clone https://github.com/Kaarti22/mnist-handwritten-digit-classification.git
 
 cd mnist-handwritten-digit-classification
+```
 
 <p><b>Step-2: </b>Create a virtual environment and install the dependencies.
 <br/>
     <b>Note: </b> This example is given provided you are using a Windows OS. If you have any other, please follow the standard guide from documentation.
 </p>
 
-bash
+```bash
 python -m venv env
 
 .\env\Scripts\activate
 
 pip install -r requiremnts.txt
-
+```
 
 <p><b>Step-3: </b>Run the code.ipynb file selecting the kernel from the virtual environment created in the previous step. A <b>model.h5</b> file is created in the root folder after successful execution.</p>
 
 <p><b>Step-4: </b> Run the streamlit app using the following command</p>
 
-bash
+```bash
 streamlit run .\app.py
-
+```
 
 <p><b>Step-5: </b> Select a handwritten digit image and upload. You will see the predicted output. </p>
